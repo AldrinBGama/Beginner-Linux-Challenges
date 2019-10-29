@@ -1,0 +1,98 @@
+442	 pwd
+443	 mkdir workspace
+444	 ls
+445	 cd workspace/
+446	 ls
+447	 touch README.md
+448	 cp README.md CHANGELOG.md
+449	 ls
+450	 ls -F
+451	 cd ~
+452	 ls -F
+453	 cd workspace/
+454	 ls
+455	 cd ~
+456	 ls -F workspace/
+457	 cd workspace/
+458	 touch exercise.md
+459	 mkdir tmp
+460	 mv exercise.md tmp/
+461	 ls
+462	 ls /tmp/exercise
+463	 rm /tmp/exercise
+464	 rm -f /tmp/exercise.md
+465	 ls -F tmp/
+466	 rm -f /tmp/exercise.md
+467	 ls -F tmp/
+468	 rm -rf /tmp/exercise.md
+469	 ls -F tmp/
+470	 rm -f /tmp/exercise.md
+471	 ls -F tmp/
+472	 ls
+473	 cd tmp/
+474	 rm exercise.md 
+475	 ls
+476	 cd ..
+477	 ls
+478	 touch umuzi.md recruits.md cohort.md
+479	 ls
+480	 cat >> umuzi.md 
+481	 cat umuzi.md 
+482	 cat >> recruits.md 
+483	 cat >> cohort.md 
+484	 clear
+485	 echo "$umuzi.md$recruit.md$cohort.md"
+486	 echo "$umuzi$recruit$cohort"
+487	 echo "$umuzi"
+488	 echo "$umuzi.md"
+489	 cat umuzi.md
+490	 cat umuzi.md recruits.md cohort.md 
+491	 summary.md="$umuzi.md$recrits.md$cofort.md"
+492	 touch summary.md
+493	 summary.md="$umuzi.md$recrits.md$cofort.md"
+494	 cat umuzi.md recrits.md cofort.md > summary.md
+495	 cat umuzi.md recruits.md cofort.md > summary.md
+496	 cat umuzi.md recruits.md cohort.md > summary.md
+497	 cat summary.md 
+498	 echo 'The End' >> summary.md 
+499	 cat summary.md 
+500	 poweroff
+501	 ls
+502	 cd workspace/
+503	 locate umuzi.md 
+504	 locate umuzi.md | tee search_result.md
+505	 ls -l
+506	 pwd
+507	 cd ../Documents/
+508	 ls
+509	 touch pad.md
+510	 cd ../Desktop/
+511	 mkdir work
+512	 ls
+513	 cd myhome/
+514	 ls
+515	 cd ..
+516	 rm -rf myhome/
+517	 ls
+518	 cp ../Documents/pad.md pad_copy.md
+519	 ls
+520	 locate updatedb
+521	 cd -
+522	 ls
+523	 cd ../Documents/
+524	 locate pad_copy.md
+525	 ls
+526	 find '.pdf'
+527	 locate .pdf
+528	 locate .pdf | tee | mkdir myChoice
+529	 ls
+530	 ls -lrt
+531	 ls -lt
+532	 find . -mtime -1 -print
+533	 nano my_bio.md
+534	 ls
+535	 nano my_foot.md
+536	 nano my_foot.md
+537	 rm my_foot.md 
+538	 mkdir my_files
+539	 mv my_bio.md my_files/
